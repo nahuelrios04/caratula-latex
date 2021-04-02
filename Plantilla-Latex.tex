@@ -1,0 +1,90 @@
+\documentclass[a4paper]{article}
+\usepackage{amsmath, amssymb}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{fancyhdr} % activamos el paquete
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage[top=2cm, bottom=0cm, left= 2.9cm , right= 2cm]{geometry}
+\definecolor{celeste}{rgb}{0.33, 0.41, 0.47}
+\definecolor{negro}{rgb}{0.00, 0.00, 0.00}
+\pagestyle{fancy} % seleccionamos un estilo
+
+\textheight = 225mm
+\textwidth = 160mm
+\voffset=0mm
+\hoffset= -2mm
+\topmargin = -25mm
+\headheight = 20mm
+\headsep=5mm
+\fancyhead{}
+\fancyhead[L]{
+	\begin{minipage}{0.01\textwidth}
+		%\includegraphics[width=9mm]{imagen_a_eleccion.eps} elegir imagen de portada 
+	\end{minipage}%	
+	\begin{minipage}{0.5\textwidth}
+			\centering		
+			\hspace{-15mm}
+			\textit{ \small{ Universidad\\ \hspace{-15mm}
+Regional\\
+			}}
+	\end{minipage}
+	\vspace{2mm}
+	     }%
+\fancyhead[R]{
+\begin{minipage}{0.5\textwidth}
+\vspace{-12mm}
+\centering
+	\textit{ \small{ nombre  \\ legajo \\ \vspace{-1mm} E-mail 
+}
+}
+\end{minipage}
+}
+\renewcommand{\headrulewidth}{0.1pt}
+\renewcommand{\footrulewidth}{0.1pt}
+\begin{document}
+        \begin{titlepage}
+                \begin{center}
+                        \Huge{\textbf{Universidad }}\\
+                        \vspace{3mm}
+			\huge{\textbf{Regional}}\\
+                        \vspace{2mm}
+		\begin{figure}[h]
+			\centering
+				%\includegraphics[width=0.3\textwidth]{imagen.eps} insertar imagen
+			\end{figure}
+			\vspace{2mm}
+			\Large{\textbf{Carrera de Grado}}
+			\color{celeste}{\rule{\linewidth}{0.5mm}\\}
+			\color{negro}{	\vspace{1mm}
+				\Huge{\textbf{titulo}}\\\Large{\textbf{subtitulo}}
+				\vspace{1mm}
+			}
+					\color{celeste}{\rule{\linewidth}{0.5mm}\\}
+			\vspace{2mm}
+			\color{negro}{
+				\textbf{Profesor/es:} \begin{itemize} \centering 
+					\item profesor 1\\ 	
+					\item profesor 2 \\ 
+			     \end{itemize}
+			\textbf{Autor/es:} \begin{itemize} \centering
+					\item Autor 	
+				     \end{itemize}
+			     }
+			     \vspace{50mm}
+			    \today
+		\end{center}
+        \end{titlepage}
+	\newpage
+	\tableofcontents
+	\newpage	 
+	\section{Capitulo 1}
+\subsection{Capitulo 1.1}
+	\section{Algo 2}
+\end{document}
+~                                                                                                                                                     
+~                                                                                                                                                     
+~                                                                                                                                                     
+~                      
